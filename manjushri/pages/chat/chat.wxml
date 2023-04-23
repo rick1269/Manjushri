@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="message-list">
+    <view wx:for="{{messages}}" wx:key="index" class="message">
+      <text class="{{item.self ? 'self' : 'bot'}}">{{item.content}}</text>
+    </view>
+  </view>
+  <view class="input-area">
+    <input class="input" placeholder="请输入内容" value="{{inputContent}}" bindinput="onInput" bindconfirm="sendMessage" />
+    <button class="send-button" bindtap="sendMessage">发送</button>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <text>你好，我是文殊robot，我们开始聊天吗？</text>
+  <view>
+    <button bindtap="goToChat">是</button>
+    <button bindtap="exitApp">否</button>
+  </view>
+</view>
+

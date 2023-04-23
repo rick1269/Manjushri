@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.message-list {
+  flex: 1;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.self {
+  text-align: right;
+  color: #1aad19;
+}
+
+.bot {
+  text-align: left;
+  color: #576b95;
+}
+
+.input-area {
+  display: flex;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.input {
+  flex: 1;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  width: 80px;
+  margin-left: 10px;
+  background-color: #1aad19;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
